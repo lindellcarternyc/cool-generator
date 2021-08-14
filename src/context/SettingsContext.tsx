@@ -41,7 +41,9 @@ interface SettingsProviderProps {
 
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [colorSelection, setColorSelection] = useState([
-    ''
+    'deepskyblue',
+    'darkviolet',
+    'blue'
   ])
 
   const [angle, setAngle] = useState(300)
