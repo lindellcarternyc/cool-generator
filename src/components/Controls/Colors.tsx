@@ -14,7 +14,7 @@ const Colors = () => {
     <>
       {colorSelection.map((color, idx) => {
         return (
-          <Color color={color} index={idx} onDelete={onDelete}/>
+          <Color key={idx} color={color} index={idx} onDelete={onDelete}/>
         )
       })}
     </>
